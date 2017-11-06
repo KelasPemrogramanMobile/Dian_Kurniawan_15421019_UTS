@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dhyanlabs.prj_uts_diankurniawan1542019.menu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai Mahasiswa"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Mahasiswa"
+            android:layout_marginTop="60dp"
+            android:inputType="textNoSuggestions"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/ednama"
+            />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NPM"
+        android:id="@+id/ednpm"
+            android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/nama"
+        />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Tugas"
+            android:inputType="number"
+            android:id="@+id/nt"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/ednpm"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nilai Quiz"
+            android:id="@+id/nq"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/nt"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nilai UTS"
+            android:id="@+id/nu"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/nq"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai UAS"
+            android:id="@+id/nuas"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:layout_below="@+id/nq"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proses"
+            android:textSize="20dp"
+            android:id="@+id/btn" />
+
+    </LinearLayout>
+
+</RelativeLayout>

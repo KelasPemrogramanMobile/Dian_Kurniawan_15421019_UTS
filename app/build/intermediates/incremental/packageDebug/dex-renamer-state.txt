@@ -1,0 +1,4 @@
+#Mon Nov 06 14:10:56 ICT 2017
+base.0=E\:\\baru andro\\prj_uts_dian.kurniawan.1542019\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\baru andro\\prj_uts_dian.kurniawan.1542019\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
